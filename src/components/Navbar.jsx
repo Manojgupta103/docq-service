@@ -29,10 +29,10 @@ const Navbar = () => {
           </div>
           <div className="w-[531px] h-[68px] bg-[#FFF6F64D] relative top-[20px] rounded-[50px] flex justify-around items-center text-[18px] max-[880px]:hidden">
             <div className="hover:scale-125 duration-150 hover:font-bold">
-              <Link href="/">Home</Link>
+              <Link href="">Home</Link>
             </div>
             <div className="hover:scale-125 duration-150 hover:font-bold">
-              <Link href="/">Our Services</Link>
+              <Link href="Service">Our Services</Link>
             </div>
             <div className="hover:scale-125 duration-150 hover:font-bold">
               <Link href="/">Find Doctor</Link>
