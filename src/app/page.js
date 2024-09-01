@@ -1,10 +1,8 @@
-
-
 export default function Home() {
   return (
-   <>
-   <Home/>
-   <Service/>
-   </>
+    <>
+      <Home />
+      <Service />
+    </>
   );
 }
