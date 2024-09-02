@@ -3,8 +3,6 @@ import im1 from "../../public/6be8c6fb6acd5fc7f978e17fe6f181f8.png";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-// import im2 from "../../public/587c7eef45eb9a9032bd7861bea4ff03 (1).jpg";
-import im3 from "../../public/mingcute_plus-fill.png";
 import { Menu } from "lucide-react";
 
 import {
@@ -38,6 +36,7 @@ const Navbar = () => {
             <Link href="/">Find Doctor</Link>
           </div>
         </div>
+        
         <div className="relative top-[25px] flex gap-3 max-[1118px]:hidden">
           <Button
             variant="ghost"

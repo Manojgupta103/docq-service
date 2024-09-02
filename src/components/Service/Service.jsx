@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
 import consultation from "../../../public/consultation.png";
@@ -19,8 +20,8 @@ const ServiceComponent = () => {
   return (
     <>
       {/* Header Section */}
-      <div className="bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] py-20 lg:py-20 flex flex-col lg:flex-row h-[600px] lg:h-auto items-center justify-center mb-10 w-full relative overflow-hidden">
-        <div className="w-full lg:w-[50%] flex-col flex h-full justify-center items-center text-center gap-[30px] p-4 lg:p-0">
+      <div className="bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] lg:py-20 pt-20 flex flex-col lg:flex-row h-[600px] lg:h-auto items-center justify-center mb-10 w-full relative overflow-hidden">
+        <div className="w-full lg:w-[50%] flex-col flex h-full justify-center items-center text-center gap-[30px] p-4 lg:p-8 lg:pl-16 lg:pr-8">
           <h1 className="font-nunito text-[28px] lg:text-[50px] leading-snug font-medium">
             We are Here for You, Every Step of the Way
           </h1>
@@ -29,7 +30,7 @@ const ServiceComponent = () => {
             services are here to support you
           </h3>
         </div>
-        <div className="relative mt-10 lg:mt-0">
+        <div className="relative mt-10 lg:mt-0 flex-shrink-0">
           <Image
             src={Ellipse}
             alt="Ellipse"
@@ -196,7 +197,7 @@ const ServiceComponent = () => {
               </li>
             </ul>
           </div>
-          <div className="relative mt-10 lg:mt-0">
+          <div className="relative mt-10 lg:mt-0 flex-shrink-0">
             <Image
               src={Group7}
               alt="Doctor pointing"
