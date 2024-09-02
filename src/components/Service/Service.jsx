@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
-"use client"; 
+"use client";
 
 import React from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation"; 
+import { useRouter } from "next/navigation";
 
 import consultation from "../../../public/consultation.png";
 import Diagnostic from "../../../public/Diagnostic.png";
@@ -21,7 +21,7 @@ import imaged from "../../../public/imaged.png";
 import imageo from "../../../public/imageo.png";
 
 const ServiceComponent = () => {
-  const router = useRouter(); 
+  const router = useRouter();
 
   const handleButtonClick = (path) => {
     router.push(path);
@@ -110,7 +110,7 @@ const ServiceComponent = () => {
               <h3 className="text-lg font-medium mt-4">Diagnostic Center</h3>
               <button
                 className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4"
-                onClick={() => handleButtonClick('/Diagnostic')}
+                onClick={() => handleButtonClick('/Diadnostic')}
               >
                 Book Now
               </button>
@@ -195,7 +195,6 @@ const ServiceComponent = () => {
                   ●
                 </span>
                 <h1 className="text-[20px] lg:text-[28px] font-bold mb-2">
-                  {" "}
                   Whatever you need, we’ve got it covered, from check-ups to
                   specialized treatments.
                 </h1>
@@ -205,7 +204,6 @@ const ServiceComponent = () => {
                   ●
                 </span>
                 <h1 className="text-[20px] lg:text-[28px] font-bold mb-2">
-                  {" "}
                   You’re in good hands with our skilled and caring professionals who are all about your well-being.
                 </h1>
               </li>
@@ -214,7 +212,6 @@ const ServiceComponent = () => {
                   ●
                 </span>
                 <h1 className="text-[20px] lg:text-[28px] font-bold mb-2">
-                  {" "}
                   We listen, we care, and we tailor everything to what works
                   best for you.
                 </h1>
@@ -264,7 +261,7 @@ const ServiceComponent = () => {
         />
       </div>
     </>
-          );
+  );
 };
 
 export default ServiceComponent;
