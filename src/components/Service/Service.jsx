@@ -1,6 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
+"use client"; 
+
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation"; 
+
 import consultation from "../../../public/consultation.png";
 import Diagnostic from "../../../public/Diagnostic.png";
 import operation from "../../../public/operation.png";
@@ -17,6 +21,12 @@ import imaged from "../../../public/imaged.png";
 import imageo from "../../../public/imageo.png";
 
 const ServiceComponent = () => {
+  const router = useRouter(); 
+
+  const handleButtonClick = (path) => {
+    router.push(path);
+  };
+
   return (
     <>
       <div className="bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] lg:py-20 pt-20 flex flex-col lg:flex-row h-[600px] lg:h-auto items-center justify-center mb-10 w-full relative overflow-hidden">
@@ -68,10 +78,9 @@ const ServiceComponent = () => {
         </div>
       </div>
 
- 
       <div className="bg-[#F2F7FF] py-16 flex flex-col items-center w-full">
         <h2 className="text-center text-[24px] lg:text-[28px] font-bold mb-10">
-          We Have Experts Solutions For 30+ Ailments
+          We Have Expert Solutions For 30+ Ailments
         </h2>
         <div className="bg-[#dde7ff] p-4 lg:p-8 rounded-[30px] lg:rounded-[60px] flex flex-col lg:flex-row justify-center gap-8 w-full lg:w-[70%] mx-auto">
           <div className="flex flex-col items-center bg-white rounded-3xl shadow-lg transition-shadow duration-300 overflow-hidden w-full lg:w-[250px] h-[350px]">
@@ -82,7 +91,10 @@ const ServiceComponent = () => {
             />
             <div className="p-6 text-center hover:bg-blue-500 hover:text-white rounded-b-3xl transition-colors duration-300 w-full">
               <h3 className="text-lg font-medium mt-4">Consultation</h3>
-              <button className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4">
+              <button
+                className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4"
+                onClick={() => handleButtonClick('/consultation')}
+              >
                 Book Now
               </button>
             </div>
@@ -96,7 +108,10 @@ const ServiceComponent = () => {
             />
             <div className="p-6 text-center hover:bg-blue-500 hover:text-white rounded-b-3xl transition-colors duration-300 w-full">
               <h3 className="text-lg font-medium mt-4">Diagnostic Center</h3>
-              <button className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4">
+              <button
+                className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4"
+                onClick={() => handleButtonClick('/Diagnostic')}
+              >
                 Book Now
               </button>
             </div>
@@ -110,7 +125,10 @@ const ServiceComponent = () => {
             />
             <div className="p-6 text-center hover:bg-blue-500 hover:text-white rounded-b-3xl transition-colors duration-300 w-full">
               <h3 className="text-lg font-medium mt-4">Operation Center</h3>
-              <button className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4">
+              <button
+                className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4"
+                onClick={() => handleButtonClick('/operation')}
+              >
                 Book Now
               </button>
             </div>
@@ -188,13 +206,22 @@ const ServiceComponent = () => {
                 </span>
                 <h1 className="text-[20px] lg:text-[28px] font-bold mb-2">
                   {" "}
+                  You’re in good hands with our skilled and caring professionals who are all about your well-being.
+                </h1>
+              </li>
+              <li className="flex items-start">
+                <span className="text-[24px] lg:text-[32px] font-bold mb-2">
+                  ●
+                </span>
+                <h1 className="text-[20px] lg:text-[28px] font-bold mb-2">
+                  {" "}
                   We listen, we care, and we tailor everything to what works
                   best for you.
                 </h1>
               </li>
             </ul>
           </div>
-          <div className="relative mt-10 lg:mt-0 flex-shrink-0">
+          <div className="relative mt-10 lg:mt-0">
             <Image
               src={Group7}
               alt="Doctor pointing"
@@ -237,7 +264,7 @@ const ServiceComponent = () => {
         />
       </div>
     </>
-  );
+          );
 };
 
 export default ServiceComponent;
