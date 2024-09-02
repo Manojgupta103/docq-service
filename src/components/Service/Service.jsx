@@ -42,7 +42,7 @@ const ServiceComponent = () => {
             alt="Rectangle 134"
             width={450}
             height={450}
-            className="absolute -top-28 right-3 max-w-full"
+            className="absolute -top-24 right-3 max-w-full"
           />
           <Image
             src={image}
