@@ -19,7 +19,6 @@ import imageo from "../../../public/imageo.png";
 const ServiceComponent = () => {
   return (
     <>
-      {/* Header Section */}
       <div className="bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] lg:py-20 pt-20 flex flex-col lg:flex-row h-[600px] lg:h-auto items-center justify-center mb-10 w-full relative overflow-hidden">
         <div className="w-full lg:w-[50%] flex-col flex h-full justify-center items-center text-center gap-[30px] p-4 lg:p-8 lg:pl-16 lg:pr-8">
           <h1 className="font-nunito text-[28px] lg:text-[50px] leading-snug font-medium">
@@ -69,7 +68,7 @@ const ServiceComponent = () => {
         </div>
       </div>
 
-      {/* Services Section */}
+ 
       <div className="bg-[#F2F7FF] py-16 flex flex-col items-center w-full">
         <h2 className="text-center text-[24px] lg:text-[28px] font-bold mb-10">
           We Have Experts Solutions For 30+ Ailments
@@ -119,7 +118,6 @@ const ServiceComponent = () => {
         </div>
       </div>
 
-      {/* How It Works Section */}
       <div className="bg-[#F2F7FF] py-16 flex flex-col items-center w-full">
         <h2 className="text-center text-[24px] lg:text-[28px] font-bold mb-10">
           How it Works
@@ -157,7 +155,6 @@ const ServiceComponent = () => {
         </div>
       </div>
 
-      {/* Why Choose Us Section */}
       <div className="pr-8 pl-8 bg-[#F2F7FF] w-full">
         <div className="bg-[#4EA4FF] rounded-[30px] lg:rounded-[60px] p-4 lg:p-8 flex flex-col lg:flex-row justify-around items-center shadow-lg my-16 w-full">
           <div className="flex flex-col max-w-full lg:max-w-[50%]">
@@ -230,7 +227,6 @@ const ServiceComponent = () => {
         </div>
       </div>
 
-      {/* Final Image Section */}
       <div className="flex justify-center items-center w-full p-4">
         <Image
           src={Group345}
