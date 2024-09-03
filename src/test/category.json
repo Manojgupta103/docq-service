@@ -1,0 +1,47 @@
+{
+    "category": [
+      {
+        "name": "Imaging",
+        "image":"/lucide_image.png"
+      },
+      {
+        "name": "Labroratory",
+        "image":"/lab-search.png"
+      },
+      {
+        "name": "Cardiac",
+        "image":"/heart.png"
+      },
+      {
+        "name": "Respiratory",
+        "image":"/lungs.png"
+      },
+      {
+        "name": "Infectious Disease",
+        "image":"/mdi_virus.png"
+      },
+      {
+        "name": "Cancer",
+        "image":"/cancer.png"
+      },
+      {
+        "name": "Genetic and Prenatal",
+        "image":"/dna.png"
+      },
+      {
+        "name": "Endocrine",
+        "image":"/Vector.png"
+      },
+      {
+        "name": "Allergy",
+        "image":"/germs.png"
+      },
+      {
+        "name": "Bone and Joint",
+        "image":"/joints.png"
+      }
+
+    ]
+  }
+  
+  

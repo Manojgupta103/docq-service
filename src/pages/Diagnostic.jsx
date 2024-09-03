@@ -1,8 +1,13 @@
+/* eslint-disable react/jsx-key */
 import Foot from "@/components/Foot";
 import Navbar from "@/components/Navbar";
 import React from "react";
 import 'tailwindcss/tailwind.css'; 
 import Image from "next/image";
+import CategoryData from "./CategoryData";
+import { useState } from "react";
+import data from "../test/category.json"
+
 
 // Import the images
 import TestTubeImage from "../../public/test_tube.png";
@@ -10,6 +15,8 @@ import ComputerImage from "../../public/computer.png";
 import HelpingHandImage from "../../public/helping_hand.png";
 
 const Diagnostic = () => {
+  const [category,setCategory]  =  useState("");
+
   return (
     <>
       <Navbar />
@@ -43,7 +50,7 @@ const Diagnostic = () => {
                 alt="Cutting-Edge Tech"
                 width={500}
                 height={500}
-                className="object-cover  top-6"
+                className="object-cover "
               />
             </div>
             <h3 className="text-[#212121] mt-2 md:mt-4 text-xl md:text-xl font-bold mb-2">Cutting-Edge Tech</h3>
@@ -61,10 +68,10 @@ const Diagnostic = () => {
                 className="object-cover "
               />
             </div>
-            <div className="min-h-[50vh] flex justify-center items-center flex-col">
+          
             <h3 className="text-[#212121] mt-2 md:mt-4 text-xl md:text-xl font-bold mb-2">Here to Help</h3>
             <p className="text-[#212121] text-lg md:text-lg">Our expert team makes sure you’re comfortable every step of the way.</p>
-          </div>
+          
         </div>
       </div>
       <div className="flex w-full justify-center mt-[35px] space-x-2 h-[150px] max-[430px]:flex-col max-[430px]:items-center max-[430px]:gap-3 max-[430px]:pb-4">
@@ -80,6 +87,30 @@ const Diagnostic = () => {
           />
         </div>
         </div>
+        <div className=" bg-[#F2F7FF] flex flex-wrap w-[100%] justify-center items-center gap-x-12 gap-y-7 px-9">
+          {data && data.category.map((item)=>{
+             return  <div>
+             <button className="flex min-w-[150px] bg-[#B2D9FF] rounded-3xl hover:bg-blue-500 hover:text-white" onClick={()=> setCategory(item.name)}>
+               <div className="h-[60px] w-[60px] flex justify-center items-center bg-[white] rounded-full relative right-3">
+                 <Image
+                   src={item.image}
+                   height={100}
+                   width={100}
+                   alt="img"
+                   className="h-[30px] w-[30px] "
+                 />
+               </div>
+               <span className="pt-[10px] text-[22px] font-medium px-[30px]">
+                 {item.name}
+               </span>
+             </button>
+           </div>
+          })}
+        </div>
+        <br>
+        </br>
+      {/* <CategoryData category={category}/> */}
+
       <Foot />
     </>
   );
