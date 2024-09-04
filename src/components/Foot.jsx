@@ -11,7 +11,7 @@ const Foot = () => {
     <div className="h-[335px] max-[558px]:h-[120vh] max-[1008px]:h-[90vh] text-white bg-[#0080FF] gap-[50px] flex max-[1008px]:flex-col">
       <div className="w-[50%] h-[100%] text-[35px] flex justify-center items-center font-medium max-[1008px]:w-[100%] max-[1008px]:py-[50px]">
         <p className="px-[60px] leading-12">
-          Lets Transform The Future OfClinic’s and Hospital Appointment’s in
+          Lets Transform The Future Of Clinic’s and Hospital Appointment’s in
           India
         </p>
       </div>

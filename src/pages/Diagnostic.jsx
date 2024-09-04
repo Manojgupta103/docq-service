@@ -17,7 +17,7 @@ const Diagnostic = () => {
   const router = useRouter();
 
   const handleCategoryClick = (item) => {
-    router.push(`/Diagnostic/${item.name}`);
+    router.push(`/Diagnostic/${item.Name}`);
   };
 
   return (
@@ -77,7 +77,7 @@ const Diagnostic = () => {
       </div>
         </div>
       <Search/>
-        <div className=" bg-[#F2F7FF] flex flex-wrap w-[100%] justify-center items-center gap-x-12 gap-y-7 px-9">
+        <div className=" bg-[#F2F7FF] flex flex-wrap w-[100%] justify-center items-center gap-x-12 gap-y-7 px-5 py-9">
           {data && data.category.map((item)=>{
              return  <div key={item.name}>
              <button className="flex min-w-[150px] bg-[#B2D9FF] rounded-3xl hover:bg-blue-500 hover:text-white" onClick={()=> handleCategoryClick(item)}>
@@ -97,8 +97,7 @@ const Diagnostic = () => {
            </div>
           })}
         </div>
-        <br>
-        </br>
+
       <Foot />
     </>
   );
