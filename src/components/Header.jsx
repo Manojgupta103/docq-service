@@ -9,8 +9,7 @@ import imaged from "../../public/imaged.png";
 import imageo from "../../public/imageo.png";
 const Header = () => {
     return (
-        
-        <div className="bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] lg:py-20 pt-20 flex flex-col lg:flex-row h-[600px] lg:h-auto items-center justify-center mb-10 w-full relative overflow-hidden">
+    <div className="bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] lg:py-20 pt-20 flex flex-col lg:flex-row h-[600px] lg:h-auto items-center justify-center mb-10 w-full relative overflow-hidden">
 <div className="w-full lg:w-[50%] flex-col flex h-full justify-center items-center text-center gap-[30px] p-4 lg:p-8 lg:pl-16 lg:pr-8">
   <h1 className="font-nunito text-[28px] lg:text-[50px] leading-snug font-medium">
     We are Here for You, Every Step of the Way
