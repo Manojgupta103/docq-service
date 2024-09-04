@@ -8,9 +8,9 @@ import im5 from "../../public/Vector (5).png";
 
 const Foot = () => {
   return (
-    <div className="h-[335px] max-[558px]:h-[120vh] max-[1008px]:h-[90vh] text-white bg-[#0080FF] gap-[50px] flex max-[1008px]:flex-col">
-      <div className="w-[50%] h-[100%] text-[35px] flex justify-center items-center font-medium max-[1008px]:w-[100%] max-[1008px]:py-[50px]">
-        <p className="px-[60px] leading-12">
+    <div className="h-[300px] max-[558px]:h-[120vh] max-[1008px]:h-[90vh] font-nunito text-white bg-[#0080FF] gap-[50px] flex max-[1008px]:flex-col">
+      <div className="w-[50%] h-[100%] text-[35px] flex justify-center items-center font-medium max-[1008px]:w-[100%] ">
+        <p className="px-[32px] leading-12">
           Lets Transform The Future Of Clinic’s and Hospital Appointment’s in
           India
         </p>

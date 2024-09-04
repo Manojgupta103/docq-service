@@ -204,7 +204,7 @@ const ServiceComponent = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center w-full p-4">
+      <div className="bg-[#F2F7FF] flex justify-center items-center w-full p-4">
         <Image
           src={Group345}
           alt="Group"
