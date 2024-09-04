@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 // Import your JSON data (update the path as necessary)
-import data from "../../test/laboratory";
+import data from "../../test/cardiac";
 import centers from "../../test/centers";
 
 const CategoryPage = () => {
@@ -14,7 +14,7 @@ const CategoryPage = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
   const [hoveredCenter, setHoveredCenter] = useState(null);
 
-  const laboratory = data.Laboratory;
+  const cardiac = data.Cardiac;
   const Centers = centers.Centers;
 
   const handleItemClick = (centerName) => {
@@ -44,14 +44,14 @@ const CategoryPage = () => {
       <Search />
       <div className="bg-[#F2F7FF] min-h-96 md:px-8">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
-        Laboratory Tests
+        Cardiac Tests
         </h1>
 
         <div className="flex flex-wrap justify-center space-x-4">
-          {laboratory.map((item, index) => (
+          {cardiac.map((item, index) => (
             <div
               key={index}
-              className={`bg-white p-4 w-auto h-auto rounded-xl flex flex-col items-center cursor-pointer ${
+              className={`bg-white p-4 w-36 h-32 rounded-xl flex flex-col items-center cursor-pointer ${
                 hoveredItem === index || selectedCenter === item.centerName
                   ? "bg-[#017BFC] text-white"
                   : "hover:bg-[#017BFC] hover:text-white"

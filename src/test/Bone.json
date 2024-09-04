@@ -1,0 +1,16 @@
+{
+  "Bone": [
+    {
+      "name": "Bone Density",
+      "icon": "/bone-density.png",
+      "hoverIcon": "/bone-density-hover.png",
+      "centerName": "Bone Density Diagnostic Center"
+    },
+    {
+      "name": "Joint Aspiration",
+      "icon": "/joint-aspiration.png",
+      "hoverIcon": "/joint-aspiration-hover.png",
+      "centerName": "Joint Aspiration Diagnostic Center"
+    }
+  ]
+}

@@ -5,8 +5,7 @@ import Search from "@/components/Search";
 import Image from "next/image";
 import { useState } from "react";
 
-// Import your JSON data (update the path as necessary)
-import data from "../../test/laboratory";
+import data from "../../test/respiratory";
 import centers from "../../test/centers";
 
 const CategoryPage = () => {
@@ -14,7 +13,7 @@ const CategoryPage = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
   const [hoveredCenter, setHoveredCenter] = useState(null);
 
-  const laboratory = data.Laboratory;
+  const respiratory = data.Respiratory;
   const Centers = centers.Centers;
 
   const handleItemClick = (centerName) => {
@@ -44,14 +43,14 @@ const CategoryPage = () => {
       <Search />
       <div className="bg-[#F2F7FF] min-h-96 md:px-8">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
-        Laboratory Tests
+        Respiratory Tests
         </h1>
 
         <div className="flex flex-wrap justify-center space-x-4">
-          {laboratory.map((item, index) => (
+          {respiratory.map((item, index) => (
             <div
               key={index}
-              className={`bg-white p-4 w-auto h-auto rounded-xl flex flex-col items-center cursor-pointer ${
+              className={`bg-white w-36 h-32 p-4  rounded-xl flex flex-col items-center cursor-pointer ${
                 hoveredItem === index || selectedCenter === item.centerName
                   ? "bg-[#017BFC] text-white"
                   : "hover:bg-[#017BFC] hover:text-white"
@@ -77,14 +76,11 @@ const CategoryPage = () => {
           ))}
         </div>
 
-        {/* Render Centers only if a center is selected */}
         {selectedCenter && (
           <>
-            {/* Display the H1 only once after selecting a test */}
             <h1 className="text-3xl md:text-4xl font-bold text-center mt-8">
               Pick A Centre
             </h1>
-            {/* Add H2 tag for column headers */}
             <h2 className="flex font-nunito justify-between text-lg font-semibold text-center mt-4 mb-4 mx-14 text-gray-700">
               <span>Center Name</span>
               <span>Ratings</span>
