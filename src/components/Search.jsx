@@ -3,7 +3,7 @@ import React from 'react'
 const Search = () => {
   return (
     <>
-    <div className=" bg-[#F2F7FF] flex w-full justify-center mt-[35px] space-x-2 h-[150px] max-[430px]:flex-col max-[430px]:items-center max-[430px]:gap-3 max-[430px]:pb-4">
+    <div className=" bg-[#F2F7FF] flex w-full justify-center mt-[35px] space-x-2 h-[100px] max-[430px]:flex-col max-[430px]:items-center max-[430px]:gap-3 max-[430px]:pb-4">
     <input
       type="text"
       placeholder="Find Your Doctor ..."

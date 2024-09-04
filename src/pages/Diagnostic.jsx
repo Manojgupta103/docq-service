@@ -24,7 +24,7 @@ const Diagnostic = () => {
     <>
       <Navbar />
       <Header />
-      <div className="bg-[#F2F7FF] py-12 px-4 md:px-8 text-center">
+      <div className="bg-[#F2F7FF] py-12 px-4 md:px-8  text-center">
         <h1 className="text-[#212121] text-3xl md:text-3xl font-bold mb-4">Your Health is Our Priority</h1>
         <p className="text-[#212121] mb-8 md:mb-12">
           With comprehensive testing, advanced technology, and a caring team dedicated to your well-being.
@@ -72,7 +72,6 @@ const Diagnostic = () => {
           
             <h3 className="text-[#212121] mt-2 md:mt-4 text-xl md:text-xl font-bold mb-2">Here to Help</h3>
             <p className="text-[#212121] text-lg md:text-lg">Our expert team makes sure you’re comfortable every step of the way.</p>
-          
         </div>
       </div>
         </div>

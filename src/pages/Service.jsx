@@ -88,8 +88,8 @@ const ServiceComponent = () => {
           </div>
         </div>
       </div>
-
-      <div className="bg-[#F2F7FF] py-16 flex flex-col items-center w-full">
+      
+      <div className="bg-[#F2F7FF] py-5 flex flex-col items-center w-full">
         <h2 className="text-center text-[24px] lg:text-[28px] font-bold mb-10">
           How it Works
         </h2>
