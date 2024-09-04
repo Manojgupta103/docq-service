@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import 'tailwindcss/tailwind.css'; 
 import Navbar from "@/components/Navbar";
+import Header from "@/components/Header";
 import Foot from "@/components/Foot";
 
 import consultation from "../../public/consultation.png";
@@ -17,11 +18,7 @@ import Rectangle134 from "../../public/Rectangle 134.png";
 import mdl2 from "../../public/mdl2medical.png";
 import plus from "../../public/plusmedical.png";
 import Group345 from "../../public/Group 345.png";
-import Ellipse from "../../public/Ellipse 52.png";
-import Rectangle126 from "../../public/Rectangle 126.png";
-import image from "../../public/image.png";
-import imaged from "../../public/imaged.png";
-import imageo from "../../public/imageo.png";
+
 
 const ServiceComponent = () => {
   const router = useRouter();
@@ -33,55 +30,7 @@ const ServiceComponent = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] lg:py-20 pt-20 flex flex-col lg:flex-row h-[600px] lg:h-auto items-center justify-center mb-10 w-full relative overflow-hidden">
-        <div className="w-full lg:w-[50%] flex-col flex h-full justify-center items-center text-center gap-[30px] p-4 lg:p-8 lg:pl-16 lg:pr-8">
-          <h1 className="font-nunito text-[28px] lg:text-[50px] leading-snug font-medium">
-            We are Here for You, Every Step of the Way
-          </h1>
-          <h3 className="text-[16px] lg:text-[18px]">
-            From everyday care to those moments you need a specialist, our
-            services are here to support you
-          </h3>
-        </div>
-        <div className="relative mt-10 lg:mt-0 flex-shrink-0">
-          <Image
-            src={Ellipse}
-            alt="Ellipse"
-            width={500}
-            height={500}
-            className="rounded-lg max-w-full"
-          />
-          <Image
-            src={Rectangle126}
-            alt="Rectangle 134"
-            width={450}
-            height={450}
-            className="absolute -top-24 right-3 max-w-full"
-          />
-          <Image
-            src={image}
-            alt="Rectangle 135"
-            width={150}
-            height={150}
-            className="absolute top-0 left-0 max-w-full"
-          />
-          <Image
-            src={imaged}
-            alt="Rectangle 135"
-            width={150}
-            height={150}
-            className="absolute bottom-0 -left-14 max-w-full"
-          />
-          <Image
-            src={imageo}
-            alt="Rectangle 135"
-            width={150}
-            height={150}
-            className="absolute top-28 -right-16 max-w-full"
-          />
-        </div>
-      </div>
-
+      <Header />
       <div className="bg-[#F2F7FF] py-16 flex flex-col items-center w-full">
         <h2 className="text-center text-[24px] lg:text-[28px] font-bold mb-10">
           We Have Expert Solutions For 30+ Ailments

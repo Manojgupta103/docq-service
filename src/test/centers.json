@@ -1,0 +1,40 @@
+{
+  "Centers": [
+    {
+      "name": "ABC Center",
+      "logo": "/abc-center.png",
+      "ratings": 4,
+      "experience": "04 years"
+    },
+    {
+      "name": "Dr. Sheamus",
+      "logo": "/dr-sheamus.png",
+      "ratings": 3,
+      "experience": "03 years"
+    },
+    {
+      "name": "Dr. Emily",
+      "logo": "/dr-emily.png",
+      "ratings": 3,
+      "experience": "05 years"
+    },
+    {
+      "name": "Dr. Wang Doe",
+      "logo": "/dr-wang-doe.png",
+      "ratings": 2,
+      "experience": "02 years"
+    },
+    {
+      "name": "Dr. Micky Will",
+      "logo": "/dr-micky-will.png",
+      "ratings": 3,
+      "experience": "03 years"
+    },
+    {
+      "name": "Dr. Shane Warn",
+      "logo": "/dr-shane-warn.png",
+      "ratings": 4,
+      "experience": "04 years"
+    }
+  ]
+}

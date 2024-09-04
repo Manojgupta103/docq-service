@@ -1,0 +1,35 @@
+{
+    "Imaging": [
+      {
+        "name": "X-Ray",
+        "icon": "/x-ray.png",
+        "hoverIcon": "/x-ray-hover.png",
+        "centerName": "X-Ray Diagnostic Center"
+      },
+      {
+        "name": "MRI",
+        "icon": "/mri.png",
+        "hoverIcon": "/mri-hover.png",
+        "centerName": "MRI Imaging Center"
+      },
+      {
+        "name": "CT Scan",
+        "icon": "/baseline-image.png",
+        "hoverIcon": "/baseline-image-hover.png",
+        "centerName": "CT Scan Center"
+      },
+      {
+        "name": "Ultrasound",
+        "icon": "/baby-line.png",
+        "hoverIcon": "/ultrasound-hover.png",
+        "centerName": "Ultrasound Clinic"
+      },
+      {
+        "name": "Mammography",
+        "icon": "/solid_ribbon.png",
+        "hoverIcon": "/solid_ribbon-hover.png",
+        "centerName": "Mammography Center"
+      }
+    ]
+  }
+  
