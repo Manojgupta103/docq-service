@@ -42,7 +42,7 @@ const CategoryPage = () => {
       <Navbar />
       <Header />
       <Search />
-      <div className="bg-[#F2F7FF] min-h-screen md:px-8">
+      <div className="bg-[#F2F7FF] min-h-96 md:px-8">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
           Imaging Test
         </h1>
