@@ -9,19 +9,19 @@
     {
       "name": "PSA",
       "icon": "/psa-ball.png",
-      "hoverIcon": "/psa-ball-hover.png",
+      "hoverIcon": "/psa-ball.png",
       "centerName": "PSA Diagnostic Center"
     },
     {
       "name": "Hepatitus Panel",
       "icon": "/hepatitus-panel.png",
-      "hoverIcon": "/hepatitus-panel-hover.png",
+      "hoverIcon": "/hepatitus-panel.png",
       "centerName": "Hepatitus Diagnostic Center"
     },
     {
       "name": "Biopsy",
       "icon": "/biopsy.png",
-      "hoverIcon": "/biopsy-hover.png",
+      "hoverIcon": "/biopsy.png",
       "centerName": "Biopsy Diagnostic Center"
     }
   ]

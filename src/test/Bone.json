@@ -9,7 +9,7 @@
     {
       "name": "Joint Aspiration",
       "icon": "/joint-aspiration.png",
-      "hoverIcon": "/joint-aspiration-hover.png",
+      "hoverIcon": "/joint-aspiration.png",
       "centerName": "Joint Aspiration Diagnostic Center"
     }
   ]

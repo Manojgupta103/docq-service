@@ -9,43 +9,43 @@
         {
             "name": "Liquid Panel",
             "icon": "/LiquidPanel.png",
-            "hoverIcon": "/LiquidPanel-hover.png",
+            "hoverIcon": "/LiquidPanel.png",
             "centerName": "Center B"
         },
         {
             "name": "Blood Glucose",
             "icon": "/blood-glucose.png",
-            "hoverIcon": "/blood-glucose-hover.png",
+            "hoverIcon": "/blood-glucose.png",
             "centerName": "Center C"
         },
         {
             "name": "Liver Function",
             "icon": "/liver-function.png",
-            "hoverIcon": "/liver-function-hover.png",
+            "hoverIcon": "/liver-function.png",
             "centerName": "Center D"
         },
         {
             "name": "Thyroid Function",
             "icon": "/thyroid-function.png",
-            "hoverIcon": "/thyroid-function-hover.png",
+            "hoverIcon": "/thyroid-function.png",
             "centerName": "Center E"
         },
         {
             "name": "Urinalysis",
             "icon": "/urinalysis.png",
-            "hoverIcon": "/urinalysis-hover.png",
+            "hoverIcon": "/urinalysis.png",
             "centerName": "Center F"
         },
         {
             "name": "Kidney Function",
             "icon": "/kidney-function.png",
-            "hoverIcon": "/kidney-function-hover.png",
+            "hoverIcon": "/kidney-function.png",
             "centerName": "Center G"
         },
         {
             "name": "Electrolyte Panel",
             "icon": "/electrolyte-panel.png",
-            "hoverIcon": "/electrolyte-panel-hover.png",
+            "hoverIcon": "/electrolyte-panel.png",
             "centerName": "Center H"
         }
     ]

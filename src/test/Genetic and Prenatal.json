@@ -9,7 +9,7 @@
         {
             "name": "Amniocentesis",
             "icon": "/amniocentesis.png",
-            "hoverIcon": "/amniocentesis-hover.png",
+            "hoverIcon": "/amniocentesis.png",
             "centerName": "Amniocentesis Diagnostic Center"
         }
     ]

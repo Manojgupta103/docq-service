@@ -9,7 +9,7 @@
         {
             "name": "Chest X Ray",
             "icon": "/chest-xray.png",
-            "hoverIcon": "/chest-xray-hover.png",
+            "hoverIcon": "/chest-xray.png",
             "centerName": "X Ray Diagnostic Center"
         }
     ]

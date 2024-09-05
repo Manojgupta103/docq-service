@@ -8,7 +8,7 @@ import { useState } from "react";
 import data from "../../test/Bone";
 import centers from "../../test/centers";
 
-const CategoryPage = () => {
+const Bone = () => {
   const [selectedCenter, setSelectedCenter] = useState("");
   const [hoveredItem, setHoveredItem] = useState(null);
   const [hoveredCenter, setHoveredCenter] = useState(null);
@@ -43,35 +43,36 @@ const CategoryPage = () => {
       <Search />
       <div className="bg-[#F2F7FF] min-h-96 md:px-8">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
-        Bone and Joint Tests
+          Bone Tests
         </h1>
 
         <div className="flex flex-wrap justify-center space-x-4">
           {Bone.map((item, index) => (
             <div
               key={index}
-              className={`bg-white w-36 h-32 p-4  rounded-xl flex flex-col items-center cursor-pointer ${
+              className={`p-4 w-44 h-32 mt-4 rounded-xl flex flex-col items-center cursor-pointer transition-colors duration-300 ${
                 hoveredItem === index || selectedCenter === item.centerName
                   ? "bg-[#017BFC] text-white"
-                  : "hover:bg-[#017BFC] hover:text-white"
+                  : "bg-white text-black" 
               }`}
               onClick={() => handleItemClick(item.centerName)}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
               <div className="h-16 w-16 mb-2">
+
                 <Image
                   src={
                     hoveredItem === index || selectedCenter === item.centerName
-                      ? item.hoverIcon
-                      : item.icon
+                      ? item.hoverIcon 
+                      : item.icon 
                   }
                   alt={item.name}
                   width={64}
                   height={64}
                 />
               </div>
-              <span className="text-l font-semibold">{item.name}</span>
+              <span className="text-xl font-semibold">{item.name}</span>
             </div>
           ))}
         </div>
@@ -94,10 +95,10 @@ const CategoryPage = () => {
                 onMouseLeave={handleCenterMouseLeave}
               >
                 <div
-                  className={`p-2 rounded-full mr-5 ml-5 ${
+                  className={`p-2 rounded-full mr-5 ml-5 transition-colors duration-300 ease-in-out ${
                     hoveredCenter === index
-                      ? "bg-[#017BFC] text-white"
-                      : "bg-[#DAEDFF]"
+                      ? "bg-[#017BFC] text-white"  
+                      : "bg-[#DAEDFF] text-black" 
                   }`}
                 >
                   <span
@@ -107,7 +108,7 @@ const CategoryPage = () => {
                   >
                     {item.name}
                   </span>
-                  <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 ">
+                  <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
                     <div className="flex items-center space-x-4">
                       <Image
                         src={item.logo}
@@ -167,4 +168,4 @@ const CategoryPage = () => {
   );
 };
 
-export default CategoryPage;
+export default Bone;

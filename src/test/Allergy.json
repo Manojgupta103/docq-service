@@ -9,7 +9,7 @@
     {
       "name": "Blood Allergy",
       "icon": "/blood-allergy.png",
-      "hoverIcon": "/blood-allergy-hover.png",
+      "hoverIcon": "/blood-allergy.png",
       "centerName": "Blood Test Center"
     }
   ]

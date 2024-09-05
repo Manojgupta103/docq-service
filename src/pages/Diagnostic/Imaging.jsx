@@ -5,11 +5,10 @@ import Search from "@/components/Search";
 import Image from "next/image";
 import { useState } from "react";
 
-// Import your JSON data (update the path as necessary)
 import data from "../../test/imaging";
 import centers from "../../test/centers";
 
-const CategoryPage = () => {
+const Imaging = () => {
   const [selectedCenter, setSelectedCenter] = useState("");
   const [hoveredItem, setHoveredItem] = useState(null);
   const [hoveredCenter, setHoveredCenter] = useState(null);
@@ -44,17 +43,17 @@ const CategoryPage = () => {
       <Search />
       <div className="bg-[#F2F7FF] min-h-96 md:px-8">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
-          Imaging Test
+          Imaging Tests
         </h1>
 
         <div className="flex flex-wrap justify-center space-x-4">
           {Imaging.map((item, index) => (
             <div
               key={index}
-              className={`bg-white p-4 w-40 h-32 rounded-xl flex flex-col items-center cursor-pointer ${
+              className={`p-4 w-40 h-32 mt-4 rounded-xl flex flex-col items-center cursor-pointer transition-colors duration-300 ${
                 hoveredItem === index || selectedCenter === item.centerName
-                  ? "bg-[#017BFC] text-white"
-                  : "hover:bg-[#017BFC] hover:text-white"
+                  ? "bg-[#017BFC] text-white" 
+                  : "bg-white text-black" 
               }`}
               onClick={() => handleItemClick(item.centerName)}
               onMouseEnter={() => handleMouseEnter(index)}
@@ -64,8 +63,8 @@ const CategoryPage = () => {
                 <Image
                   src={
                     hoveredItem === index || selectedCenter === item.centerName
-                      ? item.hoverIcon
-                      : item.icon
+                      ? item.hoverIcon 
+                      : item.icon 
                   }
                   alt={item.name}
                   width={64}
@@ -77,14 +76,11 @@ const CategoryPage = () => {
           ))}
         </div>
 
-        {/* Render Centers only if a center is selected */}
         {selectedCenter && (
           <>
-            {/* Display the H1 only once after selecting a test */}
             <h1 className="text-3xl md:text-4xl font-bold text-center mt-8">
               Pick A Centre
             </h1>
-            {/* Add H2 tag for column headers */}
             <h2 className="flex font-nunito justify-between text-lg font-semibold text-center mt-4 mb-4 mx-14 text-gray-700">
               <span>Center Name</span>
               <span>Ratings</span>
@@ -98,10 +94,10 @@ const CategoryPage = () => {
                 onMouseLeave={handleCenterMouseLeave}
               >
                 <div
-                  className={`p-2 rounded-full mr-5 ml-5 ${
+                  className={`p-2 rounded-full mr-5 ml-5 transition-colors duration-300 ease-in-out ${
                     hoveredCenter === index
-                      ? "bg-[#017BFC] text-white"
-                      : "bg-[#DAEDFF]"
+                      ? "bg-[#017BFC] text-white" 
+                      : "bg-[#DAEDFF] text-black" 
                   }`}
                 >
                   <span
@@ -111,7 +107,7 @@ const CategoryPage = () => {
                   >
                     {item.name}
                   </span>
-                  <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 ">
+                  <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
                     <div className="flex items-center space-x-4">
                       <Image
                         src={item.logo}
@@ -171,4 +167,4 @@ const CategoryPage = () => {
   );
 };
 
-export default CategoryPage;
+export default Imaging;

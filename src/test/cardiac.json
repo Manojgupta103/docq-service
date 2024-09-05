@@ -9,19 +9,19 @@
         {
             "name": "Echocardiogram",
             "icon": "/Echocardiogram.png",
-            "hoverIcon": "/Echocardiogram-hover.png",
+            "hoverIcon": "/Echocardiogram.png",
             "centerName": "Center A"
         },
         {
             "name": "Stress Test",
             "icon": "/stress-test.png",
-            "hoverIcon": "/stress-test-hover.png",
+            "hoverIcon": "/stress-test.png",
             "centerName": "Center E"
         },
         {
             "name": "Holter Monitor",
             "icon": "/holter-monitor.png",
-            "hoverIcon": "/holter-monitor-hover.png",
+            "hoverIcon": "/holter-monitor.png",
             "centerName": "Center F"
         }
                 ]
