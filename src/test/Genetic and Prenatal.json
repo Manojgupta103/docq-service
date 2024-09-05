@@ -1,16 +1,16 @@
 {
-    "Genetic": [
-        {
-            "name": "Genetics",
-            "icon": "/genetics.png",
-            "hoverIcon": "/genetics-hover.png",
-            "centerName": "Genetic Diagnostic Center"
-        },
-        {
-            "name": "Amniocentesis",
-            "icon": "/amniocentesis.png",
-            "hoverIcon": "/amniocentesis.png",
-            "centerName": "Amniocentesis Diagnostic Center"
-        }
-    ]
+  "Genetic": [
+    {
+      "name": "Genetics",
+      "icon": "/genetics.png",
+      "hoverIcon": "/genetics-hover.png",
+      "centerName": "Genetic Diagnostic Center"
+    },
+    {
+      "name": "Amniocentesis",
+      "icon": "/amniocentesis.png",
+      "hoverIcon": "/amniocentesis.png",
+      "centerName": "Amniocentesis Diagnostic Center"
+    }
+  ]
 }

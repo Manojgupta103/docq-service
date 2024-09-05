@@ -43,7 +43,7 @@ const Allergy = () => {
       <Search />
       <div className="bg-[#F2F7FF] min-h-96 md:px-8">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
-        Allergy Tests
+          Allergy Tests
         </h1>
 
         <div className="flex flex-wrap justify-center space-x-4">
@@ -52,8 +52,8 @@ const Allergy = () => {
               key={index}
               className={`p-4 w-40 h-32 mt-4 rounded-xl flex flex-col items-center cursor-pointer transition-colors duration-300 ${
                 hoveredItem === index || selectedCenter === item.centerName
-                  ? "bg-[#017BFC] text-white" 
-                  : "bg-white text-black" 
+                  ? "bg-[#017BFC] text-white"
+                  : "bg-white text-black"
               }`}
               onClick={() => handleItemClick(item.centerName)}
               onMouseEnter={() => handleMouseEnter(index)}
@@ -63,8 +63,8 @@ const Allergy = () => {
                 <Image
                   src={
                     hoveredItem === index || selectedCenter === item.centerName
-                      ? item.hoverIcon 
-                      : item.icon 
+                      ? item.hoverIcon
+                      : item.icon
                   }
                   alt={item.name}
                   width={64}
@@ -96,7 +96,7 @@ const Allergy = () => {
                 <div
                   className={`p-2 rounded-full mr-5 ml-5 transition-colors duration-300 ease-in-out ${
                     hoveredCenter === index
-                      ? "bg-[#017BFC] text-white" 
+                      ? "bg-[#017BFC] text-white"
                       : "bg-[#DAEDFF] text-black"
                   }`}
                 >

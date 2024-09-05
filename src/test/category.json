@@ -1,57 +1,54 @@
 {
-    "category": [
-      {
-        "name": "Imaging",
-        "image":"/lucide_image.png",
-        "Name": "Imaging"
-      },
-      {
-        "name": "Labroratory",
-        "image":"/lab-search.png",
-        "Name": "Labroratory"
-      },
-      {
-        "name": "Cardiac",
-        "image":"/heart.png",
-        "Name": "Cardiac"
-      },
-      {
-        "name": "Respiratory",
-        "image":"/lungs.png",
-        "Name": "Respiratory"
-      },
-      {
-        "name": "Infectious Disease",
-        "image":"/mdi_virus.png",
-        "Name": "Infectious"
-      },
-      {
-        "name": "Cancer",
-        "image":"/cancer.png",
-        "Name": "Cancer"
-      },
-      {
-        "name": "Genetic and Prenatal",
-        "image":"/dna.png",
-        "Name": "Genetic"
-      },
-      {
-        "name": "Endocrine",
-        "image":"/Vector.png",
-        "Name": "Endocrine"
-      },
-      {
-        "name": "Allergy",
-        "image":"/germs.png",
-        "Name": "Allergy"
-      },
-      {
-        "name": "Bone and Joint",
-        "image":"/joints.png",
-        "Name": "Bone"
-      }
-
-    ]
-  }
-  
-  
+  "category": [
+    {
+      "name": "Imaging",
+      "image": "/lucide_image.png",
+      "Name": "Imaging"
+    },
+    {
+      "name": "Labroratory",
+      "image": "/lab-search.png",
+      "Name": "Labroratory"
+    },
+    {
+      "name": "Cardiac",
+      "image": "/heart.png",
+      "Name": "Cardiac"
+    },
+    {
+      "name": "Respiratory",
+      "image": "/lungs.png",
+      "Name": "Respiratory"
+    },
+    {
+      "name": "Infectious Disease",
+      "image": "/mdi_virus.png",
+      "Name": "Infectious"
+    },
+    {
+      "name": "Cancer",
+      "image": "/cancer.png",
+      "Name": "Cancer"
+    },
+    {
+      "name": "Genetic and Prenatal",
+      "image": "/dna.png",
+      "Name": "Genetic"
+    },
+    {
+      "name": "Endocrine",
+      "image": "/Vector.png",
+      "Name": "Endocrine"
+    },
+    {
+      "name": "Allergy",
+      "image": "/germs.png",
+      "Name": "Allergy"
+    },
+    {
+      "name": "Bone and Joint",
+      "image": "/joints.png",
+      "Name": "Bone"
+    }
+  ]
+}

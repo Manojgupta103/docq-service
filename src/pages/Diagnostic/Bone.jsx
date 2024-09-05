@@ -53,19 +53,18 @@ const Bone = () => {
               className={`p-4 w-44 h-32 mt-4 rounded-xl flex flex-col items-center cursor-pointer transition-colors duration-300 ${
                 hoveredItem === index || selectedCenter === item.centerName
                   ? "bg-[#017BFC] text-white"
-                  : "bg-white text-black" 
+                  : "bg-white text-black"
               }`}
               onClick={() => handleItemClick(item.centerName)}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
               <div className="h-16 w-16 mb-2">
-
                 <Image
                   src={
                     hoveredItem === index || selectedCenter === item.centerName
-                      ? item.hoverIcon 
-                      : item.icon 
+                      ? item.hoverIcon
+                      : item.icon
                   }
                   alt={item.name}
                   width={64}
@@ -97,8 +96,8 @@ const Bone = () => {
                 <div
                   className={`p-2 rounded-full mr-5 ml-5 transition-colors duration-300 ease-in-out ${
                     hoveredCenter === index
-                      ? "bg-[#017BFC] text-white"  
-                      : "bg-[#DAEDFF] text-black" 
+                      ? "bg-[#017BFC] text-white"
+                      : "bg-[#DAEDFF] text-black"
                   }`}
                 >
                   <span
