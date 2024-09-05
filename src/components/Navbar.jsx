@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link href="/">Find Doctor</Link>
           </div>
         </div>
-        
+
         <div className="relative top-[25px] flex gap-3 max-[1118px]:hidden">
           <Button
             variant="ghost"

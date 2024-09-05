@@ -3,7 +3,6 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Foot from "@/components/Foot";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

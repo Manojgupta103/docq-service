@@ -4,7 +4,7 @@
 import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import 'tailwindcss/tailwind.css'; 
+import "tailwindcss/tailwind.css";
 import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
 import Foot from "@/components/Foot";
@@ -18,7 +18,6 @@ import Rectangle134 from "../../public/Rectangle 134.png";
 import mdl2 from "../../public/mdl2medical.png";
 import plus from "../../public/plusmedical.png";
 import Group345 from "../../public/Group 345.png";
-
 
 const ServiceComponent = () => {
   const router = useRouter();
@@ -46,7 +45,7 @@ const ServiceComponent = () => {
               <h3 className="text-lg font-medium mt-4">Consultation</h3>
               <button
                 className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4"
-                onClick={() => handleButtonClick('/consultation')}
+                onClick={() => handleButtonClick("/consultation")}
               >
                 Book Now
               </button>
@@ -63,7 +62,7 @@ const ServiceComponent = () => {
               <h3 className="text-lg font-medium mt-4">Diagnostic Center</h3>
               <button
                 className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4"
-                onClick={() => handleButtonClick('/Diagnostic')}
+                onClick={() => handleButtonClick("/Diagnostic")}
               >
                 Book Now
               </button>
@@ -80,7 +79,7 @@ const ServiceComponent = () => {
               <h3 className="text-lg font-medium mt-4">Operation Center</h3>
               <button
                 className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4"
-                onClick={() => handleButtonClick('/operation')}
+                onClick={() => handleButtonClick("/operation")}
               >
                 Book Now
               </button>
@@ -88,7 +87,7 @@ const ServiceComponent = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="bg-[#F2F7FF] py-5 flex flex-col items-center w-full">
         <h2 className="text-center text-[24px] lg:text-[28px] font-bold mb-10">
           How it Works
@@ -157,7 +156,8 @@ const ServiceComponent = () => {
                   ●
                 </span>
                 <h1 className="text-[20px] lg:text-[28px] font-bold mb-2">
-                  You’re in good hands with our skilled and caring professionals who are all about your well-being.
+                  You’re in good hands with our skilled and caring professionals
+                  who are all about your well-being.
                 </h1>
               </li>
               <li className="flex items-start">
