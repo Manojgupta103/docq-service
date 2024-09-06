@@ -75,7 +75,6 @@ const Allergy = () => {
             </div>
           ))}
         </div>
-
         {selectedCenter && (
           <>
             <h1 className="text-3xl md:text-4xl font-bold text-center mt-8">
