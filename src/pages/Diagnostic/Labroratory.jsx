@@ -39,7 +39,7 @@ const Laboratory = () => {
 
   return (
     <>
-    <Header/>
+      <Header />
       <Head />
       <Search />
       <div className="bg-[#F2F7FF] min-h-96 md:px-8">
@@ -147,10 +147,10 @@ const Laboratory = () => {
                 </div>
               </div>
             ))}
-            <Footer/>
           </>
         )}
       </div>
+      <Footer />
     </>
   );
 };

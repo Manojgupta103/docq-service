@@ -2,26 +2,26 @@
   "Cancer": [
     {
       "name": "Pap Smear",
-      "icon": "/pap-smear.png",
-      "hoverIcon": "/pap-smear-hover.png",
+      "icon": "/icons/pap-smear.png",
+      "hoverIcon": "/icons/pap-smear-hover.png",
       "centerName": "Cancer Screening Diagnostic Center"
     },
     {
       "name": "PSA",
-      "icon": "/psa-ball.png",
-      "hoverIcon": "/psa-ball.png",
+      "icon": "/icons/psa-ball.png",
+      "hoverIcon": "/icons/psa-ball.png",
       "centerName": "PSA Diagnostic Center"
     },
     {
       "name": "Hepatitus Panel",
-      "icon": "/hepatitus-panel.png",
-      "hoverIcon": "/hepatitus-panel.png",
+      "icon": "/icons/hepatitus-panel.png",
+      "hoverIcon": "/icons/hepatitus-panel.png",
       "centerName": "Hepatitus Diagnostic Center"
     },
     {
       "name": "Biopsy",
-      "icon": "/biopsy.png",
-      "hoverIcon": "/biopsy.png",
+      "icon": "/icons/biopsy.png",
+      "hoverIcon": "/icons/biopsy.png",
       "centerName": "Biopsy Diagnostic Center"
     }
   ]

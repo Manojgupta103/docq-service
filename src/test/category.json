@@ -2,52 +2,52 @@
   "category": [
     {
       "name": "Imaging",
-      "image": "/lucide_image.png",
+      "image": "/icons/lucide_image.png",
       "Name": "Imaging"
     },
     {
       "name": "Labroratory",
-      "image": "/lab-search.png",
+      "image": "/icons/lab-search.png",
       "Name": "Labroratory"
     },
     {
       "name": "Cardiac",
-      "image": "/heart.png",
+      "image": "/icons/heart.png",
       "Name": "Cardiac"
     },
     {
       "name": "Respiratory",
-      "image": "/lungs.png",
+      "image": "/icons/lungs.png",
       "Name": "Respiratory"
     },
     {
       "name": "Infectious Disease",
-      "image": "/mdi_virus.png",
+      "image": "/icons/mdi_virus.png",
       "Name": "Infectious"
     },
     {
       "name": "Cancer",
-      "image": "/cancer.png",
+      "image": "/icons/cancer.png",
       "Name": "Cancer"
     },
     {
       "name": "Genetic and Prenatal",
-      "image": "/dna.png",
+      "image": "/icons/dna.png",
       "Name": "Genetic"
     },
     {
       "name": "Endocrine",
-      "image": "/Vector.png",
+      "image": "/icons/Vector.png",
       "Name": "Endocrine"
     },
     {
       "name": "Allergy",
-      "image": "/germs.png",
+      "image": "/icons/germs.png",
       "Name": "Allergy"
     },
     {
       "name": "Bone and Joint",
-      "image": "/joints.png",
+      "image": "/icons/joints.png",
       "Name": "Bone"
     }
   ]

@@ -2,37 +2,37 @@
   "Centers": [
     {
       "centerName": "ABC Center",
-      "logo": "/abc-center.png",
+      "logo": "/icons/abc-center.png",
       "ratings": 4,
       "experience": "04 years"
     },
     {
       "centerName": "Dr. Sheamus",
-      "logo": "/dr-sheamus.png",
+      "logo": "/icons/dr-sheamus.png",
       "ratings": 3,
       "experience": "03 years"
     },
     {
       "centerName": "Dr. Emily",
-      "logo": "/dr-emily.png",
+      "logo": "/icons/dr-emily.png",
       "ratings": 3,
       "experience": "05 years"
     },
     {
       "centerName": "Dr. Wang Doe",
-      "logo": "/dr-wang-doe.png",
+      "logo": "/icons/dr-wang-doe.png",
       "ratings": 2,
       "experience": "02 years"
     },
     {
       "centerName": "Dr. Micky Will",
-      "logo": "/dr-micky-will.png",
+      "logo": "/icons/dr-micky-will.png",
       "ratings": 3,
       "experience": "03 years"
     },
     {
       "centerName": "Dr. Shane Warn",
-      "logo": "/dr-shane-warn.png",
+      "logo": "/icons/dr-shane-warn.png",
       "ratings": 4,
       "experience": "04 years"
     }

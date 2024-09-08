@@ -2,14 +2,14 @@
   "Genetic": [
     {
       "name": "Genetics",
-      "icon": "/genetics.png",
-      "hoverIcon": "/genetics-hover.png",
+      "icon": "/icons/genetics.png",
+      "hoverIcon": "/icons/genetics-hover.png",
       "centerName": "Genetic Diagnostic Center"
     },
     {
       "name": "Amniocentesis",
-      "icon": "/amniocentesis.png",
-      "hoverIcon": "/amniocentesis.png",
+      "icon": "/icons/amniocentesis.png",
+      "hoverIcon": "/icons/amniocentesis.png",
       "centerName": "Amniocentesis Diagnostic Center"
     }
   ]

@@ -2,32 +2,32 @@
   "Imaging": [
     {
       "name": "X-Ray",
-      "icon": "/x-ray.png",
-      "hoverIcon": "/x-ray-hover.png",
+      "icon": "/icons/x-ray.png",
+      "hoverIcon": "/icons/x-ray-hover.png",
       "centerName": "X-Ray Diagnostic Center"
     },
     {
       "name": "MRI",
-      "icon": "/mri.png",
-      "hoverIcon": "/mri-hover.png",
+      "icon": "/icons/mri.png",
+      "hoverIcon": "/icons/mri-hover.png",
       "centerName": "MRI Imaging Center"
     },
     {
       "name": "CT Scan",
-      "icon": "/baseline-image.png",
-      "hoverIcon": "/baseline-image-hover.png",
+      "icon": "/icons/baseline-image.png",
+      "hoverIcon": "/icons/baseline-image-hover.png",
       "centerName": "CT Scan Center"
     },
     {
       "name": "Ultrasound",
-      "icon": "/baby-line.png",
-      "hoverIcon": "/ultrasound-hover.png",
+      "icon": "/icons/baby-line.png",
+      "hoverIcon": "/icons/ultrasound-hover.png",
       "centerName": "Ultrasound Clinic"
     },
     {
       "name": "Mammography",
-      "icon": "/solid_ribbon.png",
-      "hoverIcon": "/solid_ribbon-hover.png",
+      "icon": "/icons/solid_ribbon.png",
+      "hoverIcon": "/icons/solid_ribbon-hover.png",
       "centerName": "Mammography Center"
     }
   ]
