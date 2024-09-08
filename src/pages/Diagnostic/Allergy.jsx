@@ -6,6 +6,8 @@ import { useState } from "react";
 
 import data from "../../test/Allergy";
 import centers from "../../test/centers";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const Allergy = () => {
   const [selectedCenter, setSelectedCenter] = useState("");
@@ -37,6 +39,7 @@ const Allergy = () => {
 
   return (
     <>
+    <Header />
       <Head />
       <Search />
       <div className="bg-[#F2F7FF] min-h-96 md:px-8">
@@ -96,9 +99,8 @@ const Allergy = () => {
                       ? "bg-[#017BFC] text-white"
                       : "bg-[#DAEDFF] text-black"
                   }`}
-                  style={{ height: "60px" }} // Ensuring consistent height for all rows
+                  style={{ height: "60px" }} 
                 >
-                  {/* Center Name & Logo */}
                   <div className="flex items-center space-x-4 w-1/3">
                     <Image
                       src={item.logo}
@@ -116,7 +118,6 @@ const Allergy = () => {
                     </span>
                   </div>
 
-                  {/* Ratings */}
                   <div className="flex items-center space-x-1 w-1/3 justify-center">
                     {Array.from({ length: 5 }, (_, i) => (
                       <svg
@@ -138,7 +139,6 @@ const Allergy = () => {
                     ))}
                   </div>
 
-                  {/* Experience */}
                   <div className="w-1/3 text-right">
                     <span className="font-semibold">Experience:</span>{" "}
                     {item.experience}
@@ -146,6 +146,7 @@ const Allergy = () => {
                 </div>
               </div>
             ))}
+            <Footer/>
           </>
         )}
       </div>

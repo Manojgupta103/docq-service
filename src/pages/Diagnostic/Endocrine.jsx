@@ -6,6 +6,8 @@ import { useState } from "react";
 
 import data from "../../test/Endocrine";
 import centers from "../../test/centers";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const Endocrine = () => {
   const [selectedCenter, setSelectedCenter] = useState("");
@@ -37,6 +39,7 @@ const Endocrine = () => {
 
   return (
     <>
+    <Header/>
       <Head />
       <Search />
       <div className="bg-[#F2F7FF] min-h-96 md:px-8">
@@ -97,9 +100,8 @@ const Endocrine = () => {
                       ? "bg-[#017BFC] text-white"
                       : "bg-[#DAEDFF] text-black"
                   }`}
-                  style={{ height: "60px" }} // Ensuring consistent height for all rows
+                  style={{ height: "60px" }} 
                 >
-                  {/* Center Name & Logo */}
                   <div className="flex items-center space-x-4 w-1/3">
                     <Image
                       src={item.logo}
@@ -117,7 +119,6 @@ const Endocrine = () => {
                     </span>
                   </div>
 
-                  {/* Ratings */}
                   <div className="flex items-center space-x-1 w-1/3 justify-center">
                     {Array.from({ length: 5 }, (_, i) => (
                       <svg
@@ -139,7 +140,6 @@ const Endocrine = () => {
                     ))}
                   </div>
 
-                  {/* Experience */}
                   <div className="w-1/3 text-right">
                     <span className="font-semibold">Experience:</span>{" "}
                     {item.experience}
@@ -147,6 +147,7 @@ const Endocrine = () => {
                 </div>
               </div>
             ))}
+            <Footer/>
           </>
         )}
       </div>
