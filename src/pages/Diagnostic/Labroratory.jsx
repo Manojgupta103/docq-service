@@ -95,7 +95,7 @@ const Laboratory = () => {
                 onMouseLeave={handleCenterMouseLeave}
               >
                 <div
-                  className={`p-4 rounded-full mx-5 transition-colors duration-300 ease-in-out flex items-center justify-between ${
+                  className={`p-4 rounded-full mb-4 mx-5 transition-colors duration-300 ease-in-out flex items-center justify-between ${
                     hoveredCenter === index
                       ? "bg-[#017BFC] text-white"
                       : "bg-[#DAEDFF] text-black"
