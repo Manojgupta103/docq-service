@@ -5,19 +5,19 @@ import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import "tailwindcss/tailwind.css";
-import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
-import Foot from "@/components/Foot";
+import Head from "@/components/Head";
+import Footer from "@/components/Footer";
 
-import consultation from "../../public/consultation.png";
-import Diagnostic from "../../public/Diagnostic.png";
-import operation from "../../public/operation.png";
-import stepsImage from "../../public/steps.png";
-import Group7 from "../../public/Group 7.png";
-import Rectangle134 from "../../public/Rectangle 134.png";
-import mdl2 from "../../public/mdl2medical.png";
-import plus from "../../public/plusmedical.png";
-import Group345 from "../../public/Group 345.png";
+import consultation from "../../public/icons/consultation.png";
+import Diagnostic from "../../public/icons/Diagnostic.png";
+import operation from "../../public/icons/operation.png";
+import stepsImage from "../../public/icons/steps.png";
+import Group7 from "../../public/icons/Group 7.png";
+import Rectangle134 from "../../public/icons/Rectangle 134.png";
+import mdl2 from "../../public/icons/mdl2medical.png";
+import plus from "../../public/icons/plusmedical.png";
+import Group345 from "../../public/icons/Group 345.png";
 
 const ServiceComponent = () => {
   const router = useRouter();
@@ -28,8 +28,8 @@ const ServiceComponent = () => {
 
   return (
     <>
-      <Navbar />
       <Header />
+      <Head />
       <div className="bg-[#F2F7FF] py-16 flex flex-col items-center w-full">
         <h2 className="text-center text-[24px] lg:text-[28px] font-bold mb-10">
           We Have Expert Solutions For 30+ Ailments
@@ -213,7 +213,7 @@ const ServiceComponent = () => {
           className="max-w-full"
         />
       </div>
-      <Foot />
+      <Footer />
     </>
   );
 };

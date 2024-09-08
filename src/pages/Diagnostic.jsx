@@ -1,6 +1,6 @@
-import Foot from "@/components/Foot";
-import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Head from "@/components/Head";
 
 import React from "react";
 import "tailwindcss/tailwind.css";
@@ -8,9 +8,9 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import data from "../test/category.json";
 
-import TestTubeImage from "../../public/test_tube.png";
-import ComputerImage from "../../public/computer.png";
-import HelpingHandImage from "../../public/helping_hand.png";
+import TestTubeImage from "../../public/icons/test_tube.png";
+import ComputerImage from "../../public/icons/computer.png";
+import HelpingHandImage from "../../public/icons/helping_hand.png";
 import Search from "@/components/Search";
 
 const Diagnostic = () => {
@@ -22,8 +22,8 @@ const Diagnostic = () => {
 
   return (
     <>
-      <Navbar />
       <Header />
+      <Head />
       <div className="bg-[#F2F7FF] py-12 px-4 md:px-8  text-center">
         <h1 className="text-[#212121] text-3xl md:text-3xl font-bold mb-4">
           Your Health is Our Priority
@@ -118,7 +118,7 @@ const Diagnostic = () => {
           })}
       </div>
 
-      <Foot />
+      <Footer />
     </>
   );
 };

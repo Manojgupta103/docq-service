@@ -1,13 +1,13 @@
-import Foot from "@/components/Foot";
+import Footer from "@/components/Footer";
+import Head from "@/components/Head";
 import Header from "@/components/Header";
-import Navbar from "@/components/Navbar";
 import React from "react";
 
 const OperationPage = () => {
   return (
     <>
-      <Navbar />
       <Header />
+      <Head />
       <div className="container mx-auto p-4">
         <h1 className="text-3xl font-bold mb-4">Operation Center</h1>
         <p>
@@ -15,7 +15,7 @@ const OperationPage = () => {
           here.
         </p>
       </div>
-      <Foot />
+      <Footer />
     </>
   );
 };
