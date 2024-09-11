@@ -9,13 +9,13 @@ import imaged from "../../public/icons/imaged.png";
 import imageo from "../../public/icons/imageo.png";
 const Head = () => {
   return (
-    <div className="bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] lg:py-20 pt-20 flex flex-col lg:flex-row h-[600px] lg:h-auto items-center justify-center  w-full relative overflow-hidden">
-      <div className="w-full lg:w-[50%] flex-col flex h-full justify-center items-center text-center gap-[30px] p-4 lg:p-8 lg:pl-16 lg:pr-8">
-        <h1 className="font-nunito text-[28px] lg:text-[50px] leading-snug font-medium">
-          We are Here for You, Every Step of the Way
+    <div className="bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] pt-20 flex flex-col lg:flex-row h-[600px] lg:h-auto items-center justify-center  w-full relative overflow-hidden">
+      <div className="w-full lg:w-[50%] flex-col flex h-full justify-center items-center  gap-[30px] p-4 -mt-16 lg:p-8 lg:pl-16 lg:pr-8">
+        <h1 className="font-nunito text-[35px] lg:text-[60px] leading-snug font-medium">
+          We are Here for You, <br className="hidden lg:block" /> Every Step of the Way
         </h1>
-        <h3 className="text-[16px] lg:text-[18px]">
-          From everyday care to those moments you need a specialist, our
+        <h3 className="font-nunito text-[16px] lg:text-[25px]">
+          From everyday care to those moments you need a <br className="hidden lg:block" /> specialist, our
           services are here to support you
         </h3>
       </div>
@@ -46,7 +46,7 @@ const Head = () => {
           alt="Rectangle 135"
           width={150}
           height={150}
-          className="absolute bottom-0 -left-14 max-w-full"
+          className="absolute bottom-10 -left-16 max-w-full"
         />
         <Image
           src={imageo}
