@@ -1,10 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
 # Project Name
 Welcome to the Project Name! This project is built with Next.js and aims to provide a comprehensive solution for [insert project description here].
 
 ## Getting Started
-
 To get started with this project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/project-name.git`
