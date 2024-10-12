@@ -2,7 +2,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-
 # Project Name
 
 Welcome to the Project Name! This project is built with Next.js and aims to provide a comprehensive solution for [insert project description here].
